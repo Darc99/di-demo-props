@@ -1,0 +1,35 @@
+#this a comment
+
+name: Ugo
+
+names: #Comment
+    -John
+    -Paul
+    -James
+
+Books:
+    author: James Lin
+    publisher: Casting Pub 
+
+#boolean
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "my courses: one two three"
+
+include_new_lines: |
+  asdf asdf asdf
+  qwwee ggdrg eftte
+  adcv cddf bbgf
+
+ignore_new_lines: >
+  this is
+  just on long
+  string

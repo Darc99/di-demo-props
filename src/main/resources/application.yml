@@ -1,0 +1,5 @@
+guru:
+  jms:
+    username: Lala
+    password: pass
+    url: asdf
