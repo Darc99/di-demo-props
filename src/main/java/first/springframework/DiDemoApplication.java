@@ -1,10 +1,8 @@
 package first.springframework;
 
-import first.springframework.controllers.ConstructorInjectedController;
-import first.springframework.controllers.GetterInjectedController;
 import first.springframework.controllers.MyController;
-import first.springframework.controllers.PropertyInjectedController;
 import first.springframework.examplebeans.FakeDataSource;
+import first.springframework.examplebeans.FakeJmsBroker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +20,10 @@ public class DiDemoApplication {
         FakeDataSource fakeDataSource = (FakeDataSource) context.getBean(FakeDataSource.class);
         
         System.out.println(fakeDataSource.getUser());
+
+        FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) context.getBean(FakeJmsBroker.class);
+
+        System.out.println(fakeJmsBroker.getPassword());
     }
 
 }
