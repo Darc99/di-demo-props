@@ -3,3 +3,10 @@ guru:
     username: Lala
     password: pass
     url: asdf
+
+--- #file seperator
+spring:
+    profiles: de
+guru:
+  jms:
+    username:  Lala $$$$ German
